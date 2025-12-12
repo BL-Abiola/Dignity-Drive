@@ -3,9 +3,8 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Dignity Drive - Support the Cause',
-  description:
-    'Join Dignity Drive in providing essential items and support to those in need. Your donation can make a difference.',
+  title: 'Mary Sani - Portfolio',
+  description: 'Portfolio of Mary Sani, showcasing community work and projects.',
 };
 
 export default function RootLayout({
@@ -14,7 +13,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" className="dark !scroll-smooth">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -26,8 +25,12 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="icon" href="/favicon.ico?favicon.ico" sizes="48x48" type="image/x-icon" />
       </head>
-      <body className="font-body antialiased">{children}</body>
+      <body className="font-body antialiased">
+        {children}
+        <Toaster />
+      </body>
     </html>
   );
 }

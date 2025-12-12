@@ -12,23 +12,22 @@ export function Hero() {
       <div className="container px-4 md:px-6">
         <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="flex flex-col justify-center space-y-6">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary-foreground">
-              Restoring Hope, One Act of Kindness at a Time
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary">
+              Mary Sani
             </h1>
             <p className="max-w-[600px] text-foreground/80 md:text-xl">
-              Join us in our mission to provide essential dignity items to those
-              in need. Your support can bring comfort and restore hope.
+              Passionate about community empowerment and creating a better future for children.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" asChild>
-                <a href="#donate">Donate Now</a>
+                <a href="#projects">View My Work</a>
               </Button>
               <Button size="lg" variant="secondary" asChild>
-                <a href="#mission">Learn More</a>
+                <a href="#contact">Contact Me</a>
               </Button>
             </div>
           </div>
-          <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] w-full overflow-hidden rounded-xl shadow-2xl">
+          <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] w-full overflow-hidden rounded-xl shadow-2xl shadow-primary/20">
             <Image
               src={heroImage.imageUrl}
               alt={heroImage.description}

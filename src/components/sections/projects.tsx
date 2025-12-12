@@ -1,4 +1,9 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import {
+  Card,
+  CardContent,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
 
@@ -14,12 +19,12 @@ export function Projects() {
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary-foreground">
-              Our Impact in Action
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary">
+              My Projects
             </h2>
             <p className="max-w-[900px] text-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Witness the difference your support makes. Here are scenes from our
-              recent outreach events.
+              Here are some of the community outreach projects I've been
+              involved in.
             </p>
           </div>
         </div>
@@ -45,7 +50,7 @@ export function Projects() {
                   {item.description}
                 </CardTitle>
                 <p className="text-sm text-foreground/80">
-                  A glimpse into our efforts to bring smiles and support to the
+                  A brief description of the project and its impact on the
                   community.
                 </p>
               </CardContent>
