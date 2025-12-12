@@ -3,31 +3,31 @@
     {
       "id": "hero-me",
       "description": "A portrait of me.",
-      "imageUrl": "https://images.unsplash.com/photo-1707018311313-1175a6a6f634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMG9mJTIwYSUyMGJsYWNrJTIwd29tYW58ZW58MHx8fHwxNzE1ODk1NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610655507808-a59293f4e332?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2NTU0OTc0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman portrait"
     },
     {
       "id": "about-me",
       "description": "Me teaching a group of children.",
-      "imageUrl": "https://storage.googleapis.com/stablerepo-images/original-954955b2-3c8b-4a6f-96e0-2ea43a16ad3f.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1752649936912-fe4c451a1d65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjB0ZWFjaGluZ3xlbnwwfHx8fDE3NjU1NTQ2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "woman teaching"
     },
     {
       "id": "gallery-1",
       "description": "Community Outreach Event",
-      "imageUrl": "https://storage.googleapis.com/stablerepo-images/345ea5501b1e9447e1d556942c2626e2567c9c0b1161d710f2740263f9d50f8f.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1759709042164-0dd78a39028b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGFyaXR5JTIwb3V0cmVhY2h8ZW58MHx8fHwxNzY1NTU0NjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "charity outreach"
     },
     {
       "id": "gallery-2",
       "description": "Food Distribution Initiative",
-      "imageUrl": "https://storage.googleapis.com/stablerepo-images/original-d0b4d451-a9d4-42ae-9964-b541334d5885.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1710092784814-4a6f158913b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hhcml0eSUyMGZvb2R8ZW58MHx8fHwxNzY1NTU0NjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "charity food"
     },
     {
       "id": "gallery-3",
       "description": "Educational Workshop",
-      "imageUrl": "https://storage.googleapis.com/stablerepo-images/345ea5501b1e9447e1d556942c2626e2567c9c0b1161d710f2740263f9d50f8f.jpg",
+      "imageUrl": "https://images.unsplash.com/photo-1565813086292-604790c8a97b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb21tdW5pdHklMjBldmVudHxlbnwwfHx8fDE3NjU0NjI3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "community event"
     },
     {
