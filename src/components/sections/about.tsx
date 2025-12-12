@@ -25,11 +25,9 @@ export function About() {
                 About Me
               </h2>
               <p className="max-w-[600px] text-foreground/80 md:text-xl/relaxed">
-                I am a passionate and dedicated individual with a strong
-                commitment to community development and child welfare. My work
-                focuses on creating sustainable solutions that empower children
-                and uplift communities. I believe in the power of education and
-                support to transform lives.
+                I am a passionate individual dedicated to community development
+                and child welfare, focusing on creating sustainable solutions to
+                empower children and uplift communities.
               </p>
               <p className="max-w-[600px] text-foreground/80 md:text-xl/relaxed">
                 Through various outreach programs and initiatives, I strive to
