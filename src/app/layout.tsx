@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Dignity Drive',
-  description: 'Support the Sani Mary Foundation to provide clothes, food, and dignity to children in need.',
+  title: 'Mary Sani - Portfolio',
+  description: 'Portfolio of Mary Sani, showcasing community work and projects.',
 };
 
 export default function RootLayout({

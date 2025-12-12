@@ -1,32 +1,38 @@
 {
   "placeholderImages": [
     {
-      "id": "hero-children-joy",
-      "description": "Happy children benefiting from the mission's support.",
-      "imageUrl": "https://images.unsplash.com/photo-1761168433666-b5d7396c835e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaGlsZHJlbiUyMGpveXxlbnwwfHx8fDE3NjU1NTQ2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "children joy"
+      "id": "hero-me",
+      "description": "A portrait of me.",
+      "imageUrl": "https://images.unsplash.com/photo-1707018311313-1175a6a6f634?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwb3J0cmFpdCUyMG9mJTIwYSUyMGJsYWNrJTIwd29tYW58ZW58MHx8fHwxNzE1ODk1NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "about-me",
+      "description": "Me teaching a group of children.",
+      "imageUrl": "https://storage.googleapis.com/stablerepo-images/original-954955b2-3c8b-4a6f-96e0-2ea43a16ad3f.jpg",
+      "imageHint": "woman teaching"
     },
     {
       "id": "gallery-1",
-      "description": "Volunteers distributing items at an outreach event.",
+      "description": "Community Outreach Event",
       "imageUrl": "https://images.unsplash.com/photo-1759709042164-0dd78a39028b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGFyaXR5JTIwb3V0cmVhY2h8ZW58MHx8fHwxNzY1NTU0NjQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "charity outreach"
     },
     {
       "id": "gallery-2",
-      "description": "A child receiving a food package.",
+      "description": "Food Distribution Initiative",
       "imageUrl": "https://images.unsplash.com/photo-1641857480145-d702b00193de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaGFyaXR5JTIwZm9vZHxlbnwwfHx8fDE3NjU1NTQ2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "charity food"
     },
     {
       "id": "gallery-3",
-      "description": "Community members gathered during a donation drive.",
+      "description": "Educational Workshop",
       "imageUrl": "https://images.unsplash.com/photo-1654868537177-86c35bb6b226?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21tdW5pdHklMjBldmVudHxlbnwwfHx8fDE3NjU0NjI3NDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "community event"
     },
     {
       "id": "gallery-4",
-      "description": "A smiling person holding donated clothes.",
+      "description": "Clothing Donation Drive",
       "imageUrl": "https://images.unsplash.com/photo-1627564359646-5972788cec65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkb25hdGVkJTIwY2xvdGhlc3xlbnwwfHx8fDE3NjU1NTQ2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "donated clothes"
     }
