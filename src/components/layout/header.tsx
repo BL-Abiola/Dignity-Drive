@@ -9,19 +9,8 @@ import {
   SheetTrigger,
   SheetClose,
 } from '@/components/ui/sheet';
-import { useState, useEffect } from 'react';
 
 export function Header() {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   const navLinks = [
     { href: '#about', label: 'About' },
     { href: '#projects', label: 'Projects' },
@@ -30,11 +19,7 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        isScrolled
-          ? 'border-b border-border bg-background/80 backdrop-blur-lg'
-          : 'bg-transparent'
-      }`}
+      className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur-sm"
     >
       <div className="container flex h-16 items-center">
         <div className="mr-auto flex items-center">
