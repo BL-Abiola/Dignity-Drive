@@ -11,7 +11,9 @@ export function Projects() {
   const projectImages = PlaceHolderImages.filter(
     (p) =>
       p.id.startsWith('gallery-') &&
-      (p.imageHint.includes('charity') || p.imageHint.includes('community'))
+      (p.imageHint.includes('charity') ||
+        p.imageHint.includes('community') ||
+        p.imageHint.includes('outreach'))
   );
 
   return (
@@ -35,7 +37,7 @@ export function Projects() {
               className="rounded-xl shadow-lg bg-card overflow-hidden group transition-transform duration-300 hover:-translate-y-2"
             >
               <CardHeader className="p-0">
-                <div className="relative aspect-video">
+                <div className="relative aspect-square">
                   <Image
                     src={item.imageUrl}
                     alt={item.description}
