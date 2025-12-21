@@ -17,8 +17,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        body: ['Poppins', 'sans-serif'],
-        headline: ['Poppins', 'sans-serif'],
+        body: ['Inter', 'sans-serif'],
+        headline: ['Playfair Display', 'serif'],
       },
       colors: {
         border: 'hsl(var(--border))',
@@ -85,5 +85,5 @@ export default {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require('tailwindcss-animate'), require('@tailwindcss/typography')],
 } satisfies Config;

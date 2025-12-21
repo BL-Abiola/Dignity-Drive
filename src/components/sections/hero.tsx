@@ -8,17 +8,29 @@ export function Hero() {
   if (!heroImage) return null;
 
   return (
-    <section className="py-20 lg:py-32">
-      <div className="container px-4 md:px-6">
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
-          <div className="flex flex-col justify-center space-y-6">
-            <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline text-primary">
-              Mary Sani
-            </h1>
-            <p className="max-w-[600px] text-foreground/80 md:text-xl">
+    <section className="relative min-h-[calc(100vh-4rem)] flex items-center">
+      <div className="absolute inset-0 bg-gradient-to-br from-background via-background/80 to-background/50 z-0"></div>
+       <Image
+        src={heroImage.imageUrl}
+        alt={heroImage.description}
+        fill
+        priority
+        className="object-cover object-top opacity-10 z-0"
+        data-ai-hint={heroImage.imageHint}
+      />
+      <div className="container px-4 md:px-6 z-10">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
+            <div className="space-y-4">
+              <p className="text-primary font-medium tracking-widest uppercase">Community Builder & Advocate</p>
+              <h1 className="text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl font-headline text-foreground">
+                Mary Sani
+              </h1>
+            </div>
+            <p className="max-w-[600px] text-foreground/80 md:text-xl mx-auto lg:mx-0">
               Passionate about community empowerment and creating a better future for children.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" asChild>
                 <a href="#projects">View My Work</a>
               </Button>
@@ -27,15 +39,16 @@ export function Hero() {
               </Button>
             </div>
           </div>
-          <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] w-full overflow-hidden rounded-xl shadow-2xl shadow-primary/20">
+          <div className="relative h-[400px] sm:h-[500px] lg:h-[600px] w-full overflow-hidden rounded-xl shadow-2xl shadow-primary/20 group hidden lg:block">
             <Image
               src={heroImage.imageUrl}
               alt={heroImage.description}
               fill
               priority
-              className="object-cover object-top"
+              className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
               data-ai-hint={heroImage.imageHint}
             />
+             <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
           </div>
         </div>
       </div>

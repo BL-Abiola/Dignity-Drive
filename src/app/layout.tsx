@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'Mary Sani - Portfolio',
@@ -22,14 +24,21 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon.ico?favicon.ico" sizes="48x48" type="image/x-icon" />
+        <link
+          rel="icon"
+          href="/favicon.ico?v=2"
+          sizes="48x48"
+          type="image/x-icon"
+        />
       </head>
       <body className="font-body antialiased">
         {children}
         <Toaster />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

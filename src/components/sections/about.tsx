@@ -7,21 +7,22 @@ export function About() {
   if (!aboutImage) return null;
 
   return (
-    <section id="about" className="py-12 lg:py-24">
+    <section id="about" className="py-24 lg:py-32 bg-secondary">
       <div className="container px-4 md:px-6">
-        <div className="grid gap-10 lg:grid-cols-2 lg:gap-16 items-center">
-          <div className="relative h-[400px] w-full overflow-hidden rounded-xl shadow-lg">
+        <div className="grid gap-12 lg:grid-cols-2 lg:gap-20 items-center">
+          <div className="relative h-[400px] md:h-[500px] w-full overflow-hidden rounded-xl shadow-lg group">
             <Image
               src={aboutImage.imageUrl}
               alt={aboutImage.description}
               fill
-              className="object-cover"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
               data-ai-hint={aboutImage.imageHint}
             />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
           </div>
-          <div className="flex flex-col justify-center space-y-4">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl font-headline text-primary">
+          <div className="flex flex-col justify-center space-y-6">
+            <div className="space-y-3">
+              <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl font-headline text-primary">
                 About Me
               </h2>
               <p className="max-w-[600px] text-foreground/80 md:text-xl/relaxed">
@@ -30,10 +31,7 @@ export function About() {
                 empower children and uplift communities.
               </p>
               <p className="max-w-[600px] text-foreground/80 md:text-xl/relaxed">
-                Through various outreach programs and initiatives, I strive to
-                provide essential resources and create a nurturing environment
-                for children to thrive. My goal is to inspire change and build a
-                brighter future for the next generation.
+                My goal is to inspire change and build a brighter future for the next generation through outreach and support.
               </p>
             </div>
           </div>
