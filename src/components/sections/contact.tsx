@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 
 export function Contact() {
   return (
@@ -28,20 +28,11 @@ export function Contact() {
                 <div>
                   <h3 className="text-xl font-semibold">Email</h3>
                   <a
-                    href="mailto:contact@marysani.com"
+                    href="mailto:email@example.com"
                     className="text-lg text-foreground/80 hover:text-primary transition-colors"
                   >
-                    contact@marysani.com
+                    email@example.com
                   </a>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 p-3 rounded-full">
-                  <Phone className="h-6 w-6 text-primary" />
-                </div>
-                <div>
-                  <h3 className="text-xl font-semibold">Phone</h3>
-                  <p className="text-lg text-foreground/80">+234 701 519 3795</p>
                 </div>
               </div>
                <div className="flex items-start gap-4">
